@@ -31,11 +31,10 @@ export default {
 </script>
 
 <style>
-html,
-body,
+div,
 #editor {
   margin: 0;
-  height: 100%;
+  height: 100vh;
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #333;
 }
@@ -59,9 +58,5 @@ textarea {
   font-size: 14px;
   font-family: "Monaco", courier, monospace;
   padding: 20px;
-}
-
-code {
-  color: #f66;
 }
 </style>
